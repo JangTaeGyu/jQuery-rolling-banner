@@ -2,7 +2,6 @@
 jQuery 롤링 배너 플러그인
 
 <code>
-
 $(selector).rollingBanner({
     isPrev: true,
     selectorPrev: ".event_prev_new",
@@ -10,3 +9,4 @@ $(selector).rollingBanner({
     selectorNext: ".event_next_new",
     isAuto: false
 });
+</code>
