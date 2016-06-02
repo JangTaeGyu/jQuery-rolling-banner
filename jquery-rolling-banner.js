@@ -36,17 +36,17 @@
                     auto();
                 });
 
-				if (options.isPrev == true && options.selectorPrev != "") {
-	                $(options.selectorPrev).mouseover(function() {
+                if (options.isPrev == true && options.selectorPrev != "") {
+                        $(options.selectorPrev).mouseover(function() {
 	                    clearInterval(rollingId);
 	                });
 
 	                $(options.prevID).mouseout(function() {
 	                    auto();
 	                });
-				}
+		}
 
-				if (options.isNext == true && options.selectorNext != "") {
+		if (options.isNext == true && options.selectorNext != "") {
 	                $(options.selectorNext).mouseover(function() {
 	                    clearInterval(rollingId);
 	                });
@@ -54,7 +54,7 @@
 	                $(options.selectorNext).mouseout(function() {
 	                    auto();
 	                });
-				}
+		}
             }
         }
 
