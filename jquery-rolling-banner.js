@@ -41,7 +41,7 @@
 	                    clearInterval(rollingId);
 	                });
 
-	                $(options.prevID).mouseout(function() {
+	                $(options.selectorPrev).mouseout(function() {
 	                    auto();
 	                });
 		}
