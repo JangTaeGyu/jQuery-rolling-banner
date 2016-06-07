@@ -4,9 +4,9 @@ jQuery 롤링 배너 플러그인
 ```javascript
 $(selector).rollingBanner({
     isPrev: true,
-    selectorPrev: ".event_prev_new",
+    selectorPrev: "#btnPrev",
     isNext: true,
-    selectorNext: ".event_next_new",
+    selectorNext: "btnNext",
     isAuto: false
 });
 ```
