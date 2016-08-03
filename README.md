@@ -1,5 +1,5 @@
-# jQuery-rolling-banner
-jQuery 롤링 배너 플러그인
+# study-jQuery-rolling
+jQuery 롤링
 
 ```javascript
 $(selector).rollingBanner({
